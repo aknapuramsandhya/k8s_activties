@@ -1,0 +1,11 @@
+---
+apiVersion: apps/v1
+kind: ReplicaSet
+metadata:
+  name: trail7
+  labels:
+    name: nginx
+spec:
+  minReadySeconds: 2
+  replicas: 3
+
